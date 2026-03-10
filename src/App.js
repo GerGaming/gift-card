@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Heart, Sparkles, Gamepad2, Beer, CircleDot } from "lucide-react";
 import "./App.css";
+import logo from "./logo.svg"
 
 export default function Giftcard3DRevealPage() {
   const [zoomed, setZoomed] = useState(false);
@@ -33,7 +34,7 @@ export default function Giftcard3DRevealPage() {
   const gift = {
     from: params.get("from") || "",
     to: params.get("to") || "Чамд зориулсан",
-    pack: params.get("pack") || "BRO NIGHT PACK",
+    pack: selectedPack.pack,
     message:
       params.get("msg") ||
       "Цэргийн баяраар чамд хөгжилтэй, тухтай нэг орой бэлэглэж байна. Ger Gaming Lounge-д гоё өнгөрүүлээрэй.",
@@ -54,8 +55,10 @@ export default function Giftcard3DRevealPage() {
           <div className="scene">
             <div className="stand-wrap">
               <div className="stand-base-spin" />
-              <div className="stand-base-inner" />
-              <div className="stand-rod" />
+
+              <div className="stand-logo">
+                <img src={logo} alt="Ger Gaming Lounge" />
+              </div>
             </div>
 
             <div
