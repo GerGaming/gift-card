@@ -113,7 +113,6 @@ export default function Giftcard3DRevealPage() {
           </div>
 
           <h1 className="receiver-title">{gift.to}</h1>
-          <p className="from-text">{gift.from}</p>
 
           <div className="message-box">
             <div className="message-label">Message</div>
