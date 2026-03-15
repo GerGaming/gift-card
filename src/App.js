@@ -25,7 +25,7 @@ export default function Giftcard3DRevealPage() {
     },
     nighta: {
       pack: "Night pack",
-      items: ["PC night pass", "1 Energy drink"]
+      items: ["PC 1 цаг", "1 Energy drink"]
   };
 
   const selectedPack = packs[packType];
