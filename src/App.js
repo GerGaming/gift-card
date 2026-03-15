@@ -20,12 +20,16 @@ export default function Giftcard3DRevealPage() {
       items: ["Billiard 2 цаг", "4 Beer"],
     },
     gergaming: {
-      pack: "Ger Gaming Pack!",
+      pack: "Ger Gaming Pack",
       items: ["PC 2 цаг", "Billiard 2 цаг", "6 Beer"],
     },
     nighta: {
       pack: "Night pack",
       items: ["PC 1 цаг", "1 Energy drink"],
+    },
+    nightb: {
+      pack: "Night pack",
+      items: ["PC 1 цаг", "1 Beer"],
     },
   };
 
