@@ -25,11 +25,11 @@ export default function Giftcard3DRevealPage() {
     },
     nighta: {
       pack: "Night pack",
-      items: ["PC 1 цаг", "1 Energy drink"],
+      items: ["PC Night Pass", "1 Energy drink, 1 Бидний ундаа"],
     },
     nightb: {
-      pack: "Night pack",
-      items: ["PC 1 цаг", "1 Beer"],
+      pack: "Night pack for adult",
+      items: ["PC Night Pass", "2 Beer"],
     },
   };
 
